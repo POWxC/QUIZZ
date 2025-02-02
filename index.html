@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Films et Séries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    <!-- Page d'introduction -->
+    <div id="intro">
+        <h1>Bienvenue dans le Quiz Films et Séries</h1>
+        <p>Testez vos connaissances sur vos films et séries préférés !</p>
+        <button id="startBtn">Démarrer</button>
+    </div>
+
+    <!-- Page des questions -->
+    <div id="quiz" style="display: none;">
+        <div id="questionContainer">
+            <p id="question"></p>
+            <div id="answers"></div>
+        </div>
+        <button id="nextBtn" style="display: none;">Valider</button>
+        <p id="timer">15</p>
+    </div>
+
+    <!-- Page des résultats -->
+    <div id="result" style="display: none;">
+        <h2>Résultats</h2>
+        <p id="scoreMessage"></p>
+        <p>Votre score final est : <span id="finalScore"></span></p>
+        <button id="playAgainBtn">Rejouer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
